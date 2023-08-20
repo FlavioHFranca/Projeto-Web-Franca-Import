@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 20;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #d7d7d7;
+}
+
+
+header {
+  
+  text-transform: uppercase;
+  color: #f0f0f0;
+  background-color: #415aca;
+  position: sticky;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+
+
+}
+
+
+.cabeca ul h1 {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  color: #cecdcd;
+}
+
+p,h3 {
+  text-align: center;
+  color: rgb(11, 11, 11);
+}
+
+h4 {
+  
+  color: rgb(35, 196, 10)
+}
+h5{
+  margin-right: 5px;
+  font-size:0.8em; 
+}
+
+
+#produtos {
+  
+  
+  
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+
+
+}
+
+.produto {
+  background-color: #ffffff;
+  width: 600px;
+  height: 800px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 2%;
+  margin: 50px auto;
+
+}
+
+
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(213, 60, 30);
+}
+
+
+
+
+
+#myCarousel {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+}
+
+#myCarousel img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  
+}
+
+#myCarousel1 {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+}
+
+#myCarousel1 img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  
+}
+
+#myCarousel2 {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+
+}
+
+#myCarousel2 img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  
+}
+
+.descricao-valor-botao{
+  
+  margin: 20px 0;
+}
+.precos{
+  
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.carousel-control-next {
+  
+  background-color: rgba(00, 00, 00, 0.7);
+  width: 30px;
+  height: 30px;
+  margin-top: 230px;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  background-color: rgba(00, 00, 00, 0.7);
+  width: 30px;
+  height: 30px;
+  margin-top: 230px;
+  
+  
+
+}
+
+.carousel-caption d-one d-md-block {
+  display: flex;
+
+}
+footer {
+  
+  margin-top: 20px;
+  background-color: #415aca;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.contato{
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 320px;
+}
+.contato ,h4 {
+  font-size: 1.2em;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  
+}
+
+textarea {
+  resize: none;
+  width: 200px;
+}
+
+.TOPO input{
+  width: 190px;
+  padding: 10px;
+  border-radius: 2rem;
+  background-color: #ffffff;
+
+  
+}
+div.TOPO{
+  margin-bottom: 50px;
+}
