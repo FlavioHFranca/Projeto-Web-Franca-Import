@@ -1,178 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   padding: 20;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Haas Grot Text R Web",
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 16px;
 }
 body {
+  width: 100%;
   background-color: #d7d7d7;
 }
 
-
 header {
-  
   text-transform: uppercase;
   color: #f0f0f0;
-  background-color: #415aca;
-  position: sticky;
-  display: block;
+  background-color: #1f1f1f;
+
+  height: 16vh;
+
+  padding: px 0;
+}
+i {
+  padding-top: 10px;
+  font-size: 1.2rem;
+
+  color: #ffffff56;
+  transition: all 0.4ms ease-in-out;
+}
+i:hover {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.logo {
+  background-color: #1f1f1f;
   text-align: center;
-  padding-bottom: 10px;
-
-
+  margin: auto; 
 }
 
-
-.cabeca ul h1 {
-  list-style: none;
+.links {
   display: flex;
-  justify-content: right;
-  gap: 10px;
-  color: #cecdcd;
+  margin: 20px 0 0 10px;
+  width: 30px;
+  
+  
 }
-
-p,h3 {
+.sociais{
+  display: flex;
+  
+}
+.icon {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  margin-right: 10px;
+}
+p,
+h3 {
   text-align: center;
   color: rgb(11, 11, 11);
 }
-
-h4 {
-  
-  color: rgb(35, 196, 10)
-}
-h5{
+h5 {
   margin-right: 5px;
-  font-size:0.8em; 
+  font-size: 0.8em;
 }
 
-
-#produtos {
-  
-  
-  
-  display: flex;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2px;
-
-
-}
-
-.produto {
+.carousel-inner {
   background-color: #ffffff;
-  width: 600px;
-  height: 800px;
+  width: 100%;
+  max-width: 600px;
+  min-height: 850px;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 2%;
   margin: 50px auto;
-
 }
-
-
-
-h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(213, 60, 30);
-}
-
-
-
-
-
-#myCarousel {
-  padding: 1px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-bottom: 10px;
-
-}
-
-#myCarousel img {
-  padding: 100px;
-  margin: 1px;
-  border-radius: 1vh;
-  
-}
-
-#myCarousel1 {
-  padding: 1px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-bottom: 10px;
-
-}
-
-#myCarousel1 img {
-  padding: 100px;
-  margin: 1px;
-  border-radius: 1vh;
-  
-}
-
-#myCarousel2 {
-  padding: 1px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-bottom: 10px;
-
-
-}
-
+#myCarousel img,
+#myCarousel1 img,
 #myCarousel2 img {
-  padding: 100px;
-  margin: 1px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px;
   border-radius: 1vh;
-  
 }
-
-.descricao-valor-botao{
-  
-  margin: 20px 0;
+.carousel-inner p {
+  padding: 0 15px;
+  text-align: justify;
 }
-.precos{
-  
-  display: flex;
-  align-items: center;
-  
+.descricao-valor-botao {
+  margin: 20px 0 0 20px;
 }
-
-
-
-.carousel-control-next {
-  
-  background-color: rgba(00, 00, 00, 0.7);
-  width: 30px;
-  height: 30px;
-  margin-top: 230px;
-}
-
+.carousel-control-next,
 .carousel-control-prev {
-  position: absolute;
   background-color: rgba(00, 00, 00, 0.7);
   width: 30px;
   height: 30px;
-  margin-top: 230px;
-  
-  
-
+  margin: auto;
 }
 
-.carousel-caption d-one d-md-block {
-  display: flex;
-
-}
 footer {
-  
   margin-top: 20px;
-  background-color: #415aca;
+  background-color: #1f1f1f;
   padding: 50px 0;
   flex-wrap: wrap;
 }
@@ -182,9 +111,8 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
 }
-.contato{
+.contato {
   border: 3px solid #ffffff;
   border-radius: 8px;
   display: flex;
@@ -194,14 +122,13 @@ footer {
   width: 250px;
   height: 320px;
 }
-.contato ,h4 {
+.contato,
+h4 {
   font-size: 1.2em;
-  color: #1f1f1f;
+  color: #ffffff;
   margin-bottom: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  
-  
 }
 
 textarea {
@@ -209,14 +136,13 @@ textarea {
   width: 200px;
 }
 
-.TOPO input{
+.TOPO input {
   width: 190px;
   padding: 10px;
   border-radius: 2rem;
   background-color: #ffffff;
-
-  
+  color:#1f1f1f ;
 }
-div.TOPO{
+div.TOPO {
   margin-bottom: 50px;
 }

@@ -15,8 +15,6 @@
 
 -CSS3
 
--JAVA SCRIPT
-
 -BOOTSTRAP (framework)
 
 
