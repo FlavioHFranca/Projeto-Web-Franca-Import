@@ -123,12 +123,11 @@ footer {
   height: 320px;
 }
 .contato,
-h4 {
+.contato h4 {
   font-size: 1.2em;
   color: #ffffff;
   margin-bottom: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
+ 
 }
 
 textarea {
@@ -139,7 +138,7 @@ textarea {
 .TOPO input {
   width: 190px;
   padding: 10px;
-  border-radius: 2rem;
+  border-radius: 8px;
   background-color: #ffffff;
   color:#1f1f1f ;
 }
